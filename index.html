@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Acesso - Portal do Professor CSC</title>
+    <!-- Tailwind CSS para estilização rápida e moderna -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Suaviza a rolagem da página */
+        html { scroll-behavior: smooth; }
+        .image-placeholder {
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+            border: 2px dashed #cbd5e1;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-brand-200 selection:text-brand-900">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 flex items-center justify-center">
+                        <img src="logo_Colegio_Santos_Carneiro_SF.png" alt="Logo Colégio Santos Carneiro" class="w-full h-full object-contain">
+                    </div>
+                    <div>
+                        <span class="font-bold text-xl text-gray-900 block leading-tight">Colégio Santos Carneiro</span>
+                        <span class="text-xs text-gray-500 uppercase tracking-wider block">Portal do Professor</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex">
+                    <a href="https://csc.reidedu.com.br" target="_blank" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2 rounded-full font-medium transition shadow hover:shadow-md flex items-center gap-2">
+                        <span>Acessar o Sistema</span>
+                        <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-brand-900 text-white py-16 sm:py-24 relative overflow-hidden">
+        <!-- Elemento de fundo decorativo -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-white opacity-5 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-brand-500 opacity-20 blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 text-center md:text-left">
+                <div class="inline-block px-4 py-1.5 rounded-full bg-brand-800 text-brand-100 text-sm font-semibold mb-6 shadow-sm border border-brand-700">
+                    <i class="fa-solid fa-book-open mr-2"></i> Cartilha Digital Prática
+                </div>
+                <h1 class="text-4xl sm:text-5xl font-bold mb-6 leading-tight">Guia de Acesso e Uso da <span class="text-brand-400">Agenda Web</span></h1>
+                <p class="text-lg text-brand-100 mb-8 leading-relaxed max-w-2xl">
+                    Bem-vindo(a) ao sistema ConectaEDU. Esta plataforma foi adotada para modernizar nossa rotina pedagógica, substituindo a antiga agenda de papel e centralizando todas as suas necessidades em um só lugar.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#passo1" class="bg-white text-brand-900 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition shadow-lg text-center">
+                        <i class="fa-solid fa-play-circle mr-2"></i> Começar o Guia
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full">
+                <!-- Placeholder de Imagem -->
+                <div class="image-placeholder w-full h-80 rounded-2xl flex flex-col items-center justify-center text-gray-500 shadow-2xl transform rotate-1 hover:rotate-0 transition duration-300">
+                    <i class="fa-solid fa-image text-4xl mb-3 text-gray-400"></i>
+                    <span class="font-medium px-6 text-center"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
+
+            <!-- Passo 1: Como acessar -->
+            <section id="passo1" class="scroll-mt-24">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="w-12 h-12 rounded-full bg-brand-100 text-brand-600 flex items-center justify-center text-xl font-bold">1</div>
+                    <h2 class="text-3xl font-bold text-gray-900">Como acessar o sistema</h2>
+                </div>
+                
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col lg:flex-row">
+                    <div class="p-8 lg:p-12 lg:w-3/5">
+                        <p class="text-lg text-gray-600 mb-6">O acesso ao Portal do Professor é simples e pode ser feito pelo seu computador, tablet ou celular em 4 passos rápidos:</p>
+                        
+                        <ol class="space-y-6">
+                            <li class="flex gap-4">
+                                <div class="mt-1 bg-brand-50 text-brand-600 w-8 h-8 rounded-full flex items-center justify-center shrink-0"><i class="fa-brands fa-chrome"></i></div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 text-lg">Abra o seu navegador</h4>
+                                    <p class="text-gray-500">Pode ser Google Chrome, Firefox, Safari ou o de sua preferência.</p>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div class="mt-1 bg-brand-50 text-brand-600 w-8 h-8 rounded-full flex items-center justify-center shrink-0"><i class="fa-solid fa-link"></i></div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 text-lg">Acesse o endereço</h4>
+                                    <p class="text-gray-500">Digite <a href="https://csc.reidedu.com.br" target="_blank" class="text-brand-600 font-medium hover:underline">csc.reidedu.com.br</a> na barra superior e aperte Enter.</p>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div class="mt-1 bg-brand-50 text-brand-600 w-8 h-8 rounded-full flex items-center justify-center shrink-0"><i class="fa-solid fa-key"></i></div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 text-lg">Faça o Login</h4>
+                                    <p class="text-gray-500">Insira o seu usuário (ou CPF) e a senha fornecidos pela coordenação do colégio.</p>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div class="mt-1 bg-green-50 text-green-600 w-8 h-8 rounded-full flex items-center justify-center shrink-0"><i class="fa-solid fa-check"></i></div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 text-lg">Pronto!</h4>
+                                    <p class="text-gray-500">Você já está dentro do seu painel de trabalho. Salve o link nos favoritos!</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="bg-gray-50 p-8 lg:p-12 lg:w-2/5 border-t lg:border-t-0 lg:border-l border-gray-100 flex items-center justify-center">
+                        <!-- Mockup visual do Login -->
+                        <div class="w-full max-w-sm bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                            <div class="text-center mb-6">
+                                <div class="w-16 h-16 bg-brand-100 text-brand-600 rounded-full mx-auto flex items-center justify-center text-2xl mb-3"><i class="fa-solid fa-user-tie"></i></div>
+                                <h3 class="font-bold text-gray-800">ConectaEDU</h3>
+                                <p class="text-xs text-gray-500">Portal do Professor</p>
+                            </div>
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="block text-xs font-medium text-gray-700 mb-1">Usuário / CPF</label>
+                                    <div class="w-full h-10 bg-gray-50 border border-gray-200 rounded-md px-3 py-2 text-gray-400 text-sm flex items-center"><i class="fa-regular fa-user mr-2"></i> Seu CPF</div>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-medium text-gray-700 mb-1">Senha</label>
+                                    <div class="w-full h-10 bg-gray-50 border border-gray-200 rounded-md px-3 py-2 text-gray-400 text-sm flex items-center"><i class="fa-solid fa-lock mr-2"></i> ••••••••</div>
+                                </div>
+                                <button class="w-full bg-brand-600 text-white font-medium py-2 rounded-md hover:bg-brand-700 transition flex justify-center items-center gap-2 mt-2">
+                                    Entrar <i class="fa-solid fa-sign-in-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Passo 2: Funcionalidades -->
+            <section>
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="w-12 h-12 rounded-full bg-brand-100 text-brand-600 flex items-center justify-center text-xl font-bold">2</div>
+                    <h2 class="text-3xl font-bold text-gray-900">Principais Funcionalidades</h2>
+                </div>
+                <p class="text-lg text-gray-600 mb-8">O seu painel é o seu novo centro de trabalho. Realize online as tarefas que antes exigiam muito papel:</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100 group">
+                        <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 mb-2">Diário de Classe</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Esqueça o preenchimento manual. Realize a chamada e o registro dos conteúdos aplicados em sala de forma rápida.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100 group">
+                        <div class="w-14 h-14 bg-green-50 text-green-600 rounded-xl flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 mb-2">Gestão de Notas</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Espaço seguro para o lançamento direto de notas de avaliações e trabalhos, facilitando o fechamento bimestral.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100 group">
+                        <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 mb-2">Plano de Aula</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Organize seu planejamento na nuvem. Seus planos ficam salvos, fáceis de editar e compartilhar com a coordenação.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100 group">
+                        <div class="w-14 h-14 bg-orange-50 text-orange-600 rounded-xl flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 mb-2">Ocorrências</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Registre situações positivas ou pontos de atenção sobre os alunos para o acompanhamento da coordenação e dos pais.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Passo 3: Comunicação -->
+            <section>
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="w-12 h-12 rounded-full bg-brand-100 text-brand-600 flex items-center justify-center text-xl font-bold">3</div>
+                    <h2 class="text-3xl font-bold text-gray-900">Comunicação e Agenda Digital</h2>
+                </div>
+                
+                <div class="bg-brand-900 rounded-2xl overflow-hidden shadow-lg text-white">
+                    <div class="flex flex-col lg:flex-row">
+                        <div class="p-8 lg:p-12 lg:w-1/2 flex flex-col justify-center">
+                            <p class="text-lg text-brand-100 mb-8">A comunicação com as famílias agora é mais direta, segura e profissional, sem a necessidade de expor seu número pessoal em grupos de WhatsApp.</p>
+                            
+                            <ul class="space-y-6">
+                                <li class="flex gap-4 items-start">
+                                    <div class="bg-brand-700 w-10 h-10 rounded-lg flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-paper-plane"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-lg mb-1">Envio de Recados</h4>
+                                        <p class="text-brand-200 text-sm">Envie comunicados e lembretes que chegarão diretamente no aplicativo dos pais e alunos.</p>
+                                    </div>
+                                </li>
+                                <li class="flex gap-4 items-start">
+                                    <div class="bg-brand-700 w-10 h-10 rounded-lg flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-images"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-lg mb-1">Mural de Fotos</h4>
+                                        <p class="text-brand-200 text-sm">Compartilhe registros de atividades, aproximando a família e valorizando o seu trabalho em sala.</p>
+                                    </div>
+                                </li>
+                                <li class="flex gap-4 items-start">
+                                    <div class="bg-brand-700 w-10 h-10 rounded-lg flex items-center justify-center shrink-0 mt-1"><i class="fa-regular fa-calendar-days"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-lg mb-1">Calendário Escolar</h4>
+                                        <p class="text-brand-200 text-sm">Mantenha as datas de provas, entregas de trabalhos e eventos organizados para toda a comunidade.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="lg:w-1/2 bg-brand-800 p-8 flex items-center justify-center">
+                            <!-- Placeholder de Imagem -->
+                            <div class="image-placeholder w-full h-80 rounded-xl flex flex-col items-center justify-center text-gray-600 border-none shadow-inner opacity-90" style="background: linear-gradient(135deg, #14532d 0%, #15803d 100%);">
+                                <i class="fa-solid fa-mobile-screen-button text-5xl mb-3 text-brand-300"></i>
+                                <span class="font-medium px-6 text-center text-brand-200"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Passo 4: Diferenciais -->
+            <section>
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="w-12 h-12 rounded-full bg-brand-100 text-brand-600 flex items-center justify-center text-xl font-bold">4</div>
+                    <h2 class="text-3xl font-bold text-gray-900">Por que usar o ConectaEDU?</h2>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center p-6">
+                        <div class="w-20 h-20 mx-auto bg-rose-50 text-rose-500 rounded-full flex items-center justify-center text-3xl mb-4 shadow-sm">
+                            <i class="fa-solid fa-stopwatch"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-gray-900 mb-3">Economia de Tempo</h3>
+                        <p class="text-gray-500 text-sm">Automatiza tarefas burocráticas. Menos tempo preenchendo diários de papel, mais tempo focado no ensino.</p>
+                    </div>
+                    
+                    <div class="text-center p-6">
+                        <div class="w-20 h-20 mx-auto bg-teal-50 text-teal-500 rounded-full flex items-center justify-center text-3xl mb-4 shadow-sm">
+                            <i class="fa-solid fa-chart-pie"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-gray-900 mb-3">Monitoramento Inteligente</h3>
+                        <p class="text-gray-500 text-sm">Ferramentas que ajudam a identificar alunos com muitas faltas ou queda de desempenho para intervenção rápida.</p>
+                    </div>
+
+                    <div class="text-center p-6">
+                        <div class="w-20 h-20 mx-auto bg-indigo-50 text-indigo-500 rounded-full flex items-center justify-center text-3xl mb-4 shadow-sm">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-gray-900 mb-3">Segurança e Praticidade</h3>
+                        <p class="text-gray-500 text-sm">Acesse de onde estiver via navegador ou aplicativo, com dados protegidos e total segurança institucional.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer / Suporte -->
+    <footer class="bg-gray-900 text-gray-400 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <div class="flex items-center gap-3 text-white text-xl font-bold mb-2">
+                    <img src="logo_Colegio_Santos_Carneiro_SF.png" alt="Logo" class="w-8 h-8 object-contain bg-white rounded-full p-0.5"> Colégio Santos Carneiro
+                </div>
+                <p class="text-sm">Inovando a educação e simplificando sua rotina.</p>
+            </div>
+            
+            <div class="bg-gray-800 rounded-lg p-5 flex items-center gap-4 w-full md:w-auto">
+                <div class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center text-white"><i class="fa-solid fa-headset"></i></div>
+                <div>
+                    <p class="text-sm font-semibold text-white">Dúvidas no 1º acesso?</p>
+                    <p class="text-xs">A equipe de tecnologia / coordenação está à disposição!</p>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 pt-8 border-t border-gray-800 text-sm text-center md:text-left flex flex-col md:flex-row justify-between">
+            <p>&copy; 2026 Colégio Santos Carneiro. Todos os direitos reservados.</p>
+            <p class="mt-2 md:mt-0">Desenvolvido pelo estagiário de informática: Wilder Paz</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button para Mobile -->
+    <a href="https://csc.reidedu.com.br" target="_blank" class="md:hidden fixed bottom-6 right-6 bg-brand-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:bg-brand-700 transition z-50">
+        <i class="fa-solid fa-right-to-bracket text-xl"></i>
+    </a>
+
+</body>
+</html>
